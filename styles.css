@@ -1,0 +1,114 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+/* Cabeçalho */
+header {
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Seção HOME - Logo como imagem principal */
+#home {
+    text-align: center;
+    background: #007bff; /* Fundo azul */
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.logo-principal {
+    max-width: 250px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Botão de chamada para ação */
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Seção de Serviços */
+#servicos {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.servico {
+    background: #f4f4f4;
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção de Contato */
+#contato {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+form {
+    background: #f4f4f4;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+    margin-top: 30px;
+}
